@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        main {
+            height: 2100px;
+            border-radius: 30px;
+            width: 100%;
+            background-color: rgba(127, 255, 212, 0.664);
+            box-shadow: 5px 5px 10px black;
+
+        }
+
+        #head {
+            color: crimson;
+            text-shadow: 3px 2px 5px black;
+            margin-top: 20px;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'times new roman', sans-serif;
+            
+            /* background-color: #0093E9;
+            background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+
+        }
+
+        #nav {
+            display: flex;
+            justify-content: end;
+            margin-top: 30px;
+            margin-right: 10px;
+        }
+
+        .nav1 {
+            margin-right: 20px;
+            font-weight: bold;
+            padding: 10px 15px;
+            background-color: aliceblue;
+            border-radius: 40px;
+        }
+        .nav1:hover{
+            background-color: rgb(121, 121, 247);
+            color: white;
+        }
+
+        .parent {
+            border: 1px solid;
+            width: 100%;
+            height: 350px;
+            margin: 0 auto;
+            margin-top: 50px;
+            border-radius: 20px;
+            box-shadow: 4px 4px 7px black;
+            background-color: #D9AFD9;
+            background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        }
+
+        #child1 {
+            /* border: 1px solid; */
+            font-weight: bold;
+            font-size: large;
+            padding: 12px;
+            text-shadow: 2px 2px 5px white;
+            margin-left: 650px;
+            color: rgb(61, 18, 216);
+        }
+
+        .fpar {
+            display: flex;
+        }
+
+
+        .box1 {
+            /* border: 1px solid; */
+            height: 250px;
+            width: 350px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 7px black;
+        }
+
+        .box2 {
+            /* border: 1px solid black; */
+            font-size: smaller;
+            height: 250px;
+            width: 100%;
+            margin: 10px;
+            overflow-y: scroll;
+        }
+
+        #box1 {
+            /* border: 1px solid; */
+            background-image: url(./Shanivar_Wada\(1\)_20170831190942.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #box2 {
+            background-image: url(./elephanta.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #box3 {
+            background-image: url(./rajmachi.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        #box4 {
+            background-image: url(./janjira\ murud.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        #box5 {
+            background-image: url(./thikona\ fort.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <main>
+        <diV id="head"><h3>HISTORICAL PLACES IN INDIA</h3></diV>
+        <div id="nav">
+            <div class="nav1"><a href="#">HOME</a></div>
+            <div class="nav1"><a href="#">TEMPLE</a></div>
+            <div class="nav1"><a href="#">TRAVEL</a></div>
+        </div>
+
+        <div class="parent" id="parent1">
+            <div id="child">
+                <div id="child1">Shanivar Wada, Pune</div>
+                <div class="fpar">
+                    <div class="box1" id="box1"></div>
+                    <div class="box2">
+                        <b><u>Shanivar Wada</u>:-</b>
+                        <br>
+                        The former love-nest of Bajirao and Kashi, the Shaniwar Wada in Pune is now one of the most
+                        popular tourist destinations in Maharashtra. This grand mansion was built by the Peshwa Bajirao
+                        I himself as the residence of the Peshwas. Covering a vast area of about 625 acres, the palace
+                        is the ideal place to catch a glimpse of Maharashtra's rich history. The place never fails to
+                        amaze the visitor with its various forts and fountain, and the majestic statue of Baji Rao I
+                        that greets the visitor at the entrance of the palace.
+                        <br><br>
+                        <b><u>History</u>:-</b>
+                        <br>
+                        The Shaniwar Wada was built by Bajirao I in the 18th century. Bajirao served as the Peshwa or
+                        the Prime Minister to the Maratha ruler- Chhatrapati Sahu. The palace was at first supposed to
+                        be a massive 7-storey stone structure, but after the completion of the base floor, much hue and
+                        cry arose. The people objected to the construction on the grounds of the fact that stone palaces
+                        could be sanctioned and built only be the king and not by his Peshwa. Following this, it was
+                        decided that the remaining building would be constructed in brick, and not stone.
+
+                        Shaniwar Wada was finally completed, but little did anyone know that the monument would witness
+                        some murky and horrifying times in the days to come. 90 years later, the palace was attacked by
+                        the British Artillery, which caused the entire six storeys to collapse and fall. Only the stone
+                        base remained to testify the grandeur and glory of the period passed. On February 27 in 1828, a
+                        great mysterious fire started inside the compound. The fire that raged on for seven days razed
+                        the entire palace to the ground and what remained were large granite ramparts and ruins of the
+                        buildings, along with a few strong teak gateways.
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="parent" id="parent2">
+                <div id="child">
+                    <div id="child1">Elephanta Caves, Mumbai</div>
+                    <div class="fpar">
+                        <div class="box1" id="box2"></div>
+                        <div class="box2">
+                            <b><u>Elephanta Caves</u>:-</b>
+                            <br>
+                            A UNESCO World Heritage Site, Elephanta Caves is a specimen of rock-cut art and architecture
+                            from the times of medieval India. The caves are located on the Elephanta or Gharapuri island
+                            which is situated at a distance of 11 km from the city of Mumbai. Natively known as
+                            Gharapurichi Leni, the Elephanta Caves that exist today are ruins of what were once
+                            elaborately painted artworks. It also provides an amazing view of the Mumbai skyline. You
+                            can reach the Elephanta Caves via a ferry ride from Gateway of India. This collection of
+                            cave temples dates back to 5th to 7th centuries and most of them are dedicated to Lord
+                            Shiva.
+
+                            There are two groups of alcoves in the site of the Elephanta Caves, the first is a large
+                            group of five Hindu caves and the second one is a smaller group of two Buddhist caves. The
+                            Hindu caves contain the stone sculptures representing the Shaiva Hindu sect. The caves are
+                            an expression of art and a number of important imageries are sculpted here, which include
+                            'Trimurti' or three-headed Shiva, 'Gangadhar' which is a manifestation of the river Ganga as
+                            she descends to the earth and 'Ardhnareshwar', which is a representation of Shiva and
+                            Parvati in the same body. In addition to being an important heritage site, the Elephanta
+                            Caves are also an unlikely trekking destination
+                            <br><br>
+                            <b><u>History</u>:-</b>
+                            <br>
+                            The history of the Elephanta Caves has no solid proofs and is based on a number of
+                            inferences drawn from speculations and postulations. It is believed that the Elephanta Caves
+                            were built by Pandavas, however, some also credit the same to Banasura, the demon devotee of
+                            Shiva. Local tradition dictates that the caves were not built by the hands of men at all.
+
+                            Historians date the Elephanta Caves back to late 5th - 8th century AD but excavations of
+                            Kshatrapa coins dated to 4th century AD have also been unearthed here. Records are available
+                            from the defeat of the Mauryan rulers of Konkan by the Badami Chalukyas emperor Pulakesi II.
+                            At that time, Elephanta was known as Puri or Purika and was the capital of the Konkan
+                            Mauryas. As a result of this, some historians believe that the caves were built by them
+                            during their reign.
+
+                            Other historians have attributed the caves to the Kalachuris who are believed to have some
+                            relationship with the Konkan Mauryas. These assumptions are based on the fact that the
+                            Elephanta caves are dedicated to Pashupata Shaivismsect, a sect to which Kalachuris as well
+                            as Konkan Mauryas belonged. Other than these, the Chalukyas and Rashtrakutas are also
+                            believed to have been behind the creation of these magnificent caves.
+
+                            Following the rule of the Chalukyas, Elephanta Caves fell into the hands of the Gujarat
+                            Sultanate, who surrendered it to the Portuguese in 1534. The Portuguese renamed the island
+                            as "Elephanta Island" due to the huge stone statue of an elephant that was situated near the
+                            island. Elephanta Caves saw major deterioration under the Portuguese until 1661, when the
+                            caves came under the territory of the British.
+
+                            The main cave was restored in the 1970s but the other caves are still in a very deplorable
+                            condition. The Elephanta Caves got featured in UNESCO's list of World Heritage Site in 1987
+                            and became an even more popular tourist destination after that.
+                            rebuilt Agra and made it the seat of government.
+                            <br><br>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="parent" id="parent3">
+                    <div id="child">
+                        <div id="child1">Rajmachi Fort, Khandala</div>
+                        <div class="fpar">
+                            <div class="box1" id="box3"></div>
+                            <div class="box2">
+                                <b><u>Rajmachi</u>:-</b>
+                                <br>
+                                Rajmachi is a small village situated in the Sahyadri mountain range of the Konkan region
+                                of Maharashtra. Rajmachi is famous for the historical fortress which has two fortified
+                                peaks - Shrivardhan and Manaranjan forts, located near two famous hills of Lonavala and
+                                Khandala.
+
+                                At the base of the fort is the village Udhewadi which is another name for Rajmachi.
+                                Rajmachi has seen many change of hands from Shivaji Maharaj, Emperor Aurangzeb, Shahu
+                                Maharaj and eventually the British reign. The fort of Rajmachi is famous among trekkers
+                                and adventure enthusiasts. If you want to experience a full-fledged trek, you can start
+                                from the Kondhane caves side which will take 3-4 hours of climbing, but otherwise you
+                                can drive right upto Udhewadi village (from the Lonavala side) and then trek for hardly
+                                20-30 minutes to the top of the fort. The simple and clearly marked trail on both the
+                                paths make Rajmachi a very popular beginner's trek.
+                                <br><br>
+                                <b><u>History</u>:-</b>
+                                <br>
+                                The mighty Rajmachi fort was built by the Satavahanas who established their kingdom soon
+                                after the Mauryan Dynasty came to an end and ruled the kingdom till 230 BC. This kingdom
+                                started getting recognized when it was taken over by Shivaji Maharaj in 1657 from the
+                                ruler of Bijapur, Adil Shah. Under the rule of Shivaji, the Rajmachi fort was made
+                                defensive and a few structures were added for battalion purpose. It was under the rule
+                                of the Mughals from 1704 to 1705 before the Marathas gained control after their fight
+                                with Aurangzeb.
+
+                                After the Marathas, the fort was taken over by the British when the Maratha Kingdom
+                                declined in the 19th century. Soon after independence, Rajmachi Fort was declared an
+                                ancient and protected monument in Maharashtra. The Buddhist caves dedicated to the local
+                                deity are situated on the Western side of the Rajmachi plateau and were carved during
+                                200 BC.
+                                <br> <br>
+                                <b><u>Near Places</u>:-</b>
+                                <br>
+                                The top places near to Rajmachi are Lonavala which is 9 km from Rajmachi, Matheran which
+                                is located 22 km from Rajmachi, Mumbai which is located 61 km from Rajmachi, Kamshet
+                                which is located 17 km from Rajmachi, Khandala which is located 8 km from Rajmachi
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="parent" id="parent4">
+                        <div id="child">
+                            <div id="child1"> Murud Janjira, Maharashtra</div>
+                            <div class="fpar">
+                                <div class="box1" id="box4"></div>
+                                <div class="box2">
+                                    <b><u> Murud Janjira </u>:-</b>
+                                    <br>
+                                    Murud Janjira Fort is a mighty fortification located on an island off of the coastal
+                                    village of Murud, 55 km from Alibag in Maharashtra. Towering up from a massive rock
+                                    amidst the stretching azure of the Arabian Sea, this fort has stood the test of time
+                                    as well as the test of resilience in the past. This fort is a must visit if you are
+                                    travelling along the Konkan coast in Maharashtra.
+
+                                    Nineteen of the fort's bastions still stand to this date, reflecting their glorious
+                                    past with pride. Just a short boat ride away from the sandy coast, the roof of the
+                                    magnificent fort not only offers a glimpse into the past but also has a spectacular
+                                    view of the Arabian Sea all around.
+
+
+                                    <br><br>
+                                    <b><u>History</u>:-</b>
+                                    <br>
+                                    The history of Murud Janjira fort goes way back to the 15th century when some local
+                                    fishermen of Rajapuri built a small wooden fort called Medhekot on a massive rock
+                                    out in the sea to save themselves and their families from the attack of pirates.
+                                    However, the Nizam Shahi Sultan of Ahmednagar wanted it to make one of his
+                                    strongholds, firstly because of the vast area and secondly because of its strategic
+                                    positions.
+
+                                    As per the Sultan's wish, a general called Piram Khan captured the fort and Malik
+                                    Ambar - the Abyssinian regent of Siddi origin and administrative spokesman of him
+                                    ordered the construction of a solid rock fortress in place of the wooden garrison.
+                                    After massive scale renovations to create an impregnable structure by Piram Khan's
+                                    successor Burhan Khan, the fort was named Jazeere Mahroob Jazeera. Today's name
+                                    Janjira is a broken down derivation of this Arabic word Jazeera which means island -
+                                    it is a reference to its offshore location. Murud is a Konkani word, probably
+                                    referring to the Shahi of Ahmednagar.
+
+                                    The Murud-Janjira fort stands an unconquered one as over the years the Maratha, the
+                                    Portuguese and even the mighty British tried and failed to breach the walls of this
+                                    sea fort. The Siddi overlords became so powerful here that they withstood every
+                                    attack and defied the sovereign itself to establish a Sultanate of Janjira.
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="parent" id="parent5">
+                            <div id="child">
+                                <div id="child1">Tikona Fort, Lonavala</div>
+                                <div class="fpar">
+                                    <div class="box1" id="box5"></div>
+                                    <div class="box2">
+                                        <b><u>Tikona Fort</u>:-</b>
+                                        <br>
+                                        Tikona Fort, a dominant hill fortress is a popular one-day trek spot of the
+                                        Pawana Maval region of the Konkan. The real Marathi name of the fort is
+                                        Vitandgad, but it gets its more famous name from the triangular shape it is
+                                        built-in. Situated at a height of 3500 feet, the fort has high fortifications,
+                                        large doorways, seven water tanks with clean water and a spectacular view from
+                                        its topmost bastion.
+
+                                        The trek from the village of Tikona Peth to the top of the hill is an ideal
+                                        getaway for the adventurers at heart. After crossing several caves, temples and
+                                        water tanks, the route brings you to the edge of the extended parapet from where
+                                        you can take in the fantastic beauty of the surroundings. The fortress and its
+                                        pride is a paradise for the photography-lovers.
+                                        <br><br>
+                                        <b><u>History</u>:-</b>
+                                        <br>
+                                        The portion of land between Sahyadri - the Western Ghats and the Konkan Coast is
+                                        divided into 12 smaller parts called 'Maval'. Tikona fort, being one of the four
+                                        main fortresses of the Pawana Maval, played a crucial role in the protection of
+                                        the region as well as of the other forts Lohagad, Visapur and Tung.
+
+                                        Not much is known about the actual origin of this now moss-covered looming
+                                        structure. It was taken over by the Nizam Badshah Malik Ahmad Nizam Shah I in
+                                        1585. Since then the charge of the great fortress had changed many hands. It was
+                                        recovered by Maratha legend Shivaji along with a bunch of other forts of the
+                                        Konkani region. In 1665, King Jay Singh attacked the local village while it was
+                                        under the security of the Deshmukhs, but the fort held out against his Rajput
+                                        armies.
+
+                                        Once again it went to the hands of a Muslim ruler when the Tikona Fort was
+                                        offered to Mughal warrior Kubad Khan as per the Treaty of Purandar signed on
+                                        June 12, 1665. However, one more time the Marathas recovered it, only to finally
+                                        lose it out to the British, like everything else in the country.
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            
+
+                                    </div>
+
+                                </div>
+                                
+
+                                    </div>
+
+    </main>
+
+</body>
+
+</html>
