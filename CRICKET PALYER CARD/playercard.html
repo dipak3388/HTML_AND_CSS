@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            /* background-image: linear-gradient(to bottom, orange,white,green); */
+            background-image: linear-gradient( 135deg, #FAB2FF 10%, #1904E5 100%);
+            
+        }
+         
+        #nav{
+            text-align: center;
+            font-size: 60px;
+            height: 70px;
+            width: 570px;
+            text-shadow: 4px 4px 9px black;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            color: rgb(0, 98, 255);
+            font-weight: bold;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        #nav1{
+            height: 50px;
+            width: 510px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgb(154, 86, 86);
+            font-size: 40px;
+            /* border: 1px solid; */
+            margin: 0 auto;
+            color: black;
+            font-weight: bolder;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+        #box{
+            box-shadow: 0px 2px 10px black;
+            border-radius: 20px;
+            display: flex;
+            margin: 0 auto;
+            margin-top: 20px;
+            height: 510px;
+            width: 70%;
+            /* border: 1px solid; */
+            background-image: url(./background\ image.jpg);
+            flex-wrap: wrap;
+            flex-direction: row ; 
+            background-position: center;
+            background-size: cover;
+            justify-content: space-between;  
+        }
+        /* #box:hover{
+            background-color: #FFDEE9;
+            background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+        } */
+        .child{
+            height: 130px;
+            width: 130px;
+            margin-top: 5px;
+            /* border: 1px solid; */
+           border-radius: 50%;
+           margin-left: 10px;
+        }
+        .child:hover{
+            box-shadow: 6px 4px 10px rgb(43, 40, 40);
+        }
+        #child1{
+            background-image: url(./virat-kohli.webp);
+            background-position: center;
+            background-size: cover; 
+        }
+        #child2{
+            background-image: url(./rohit-sharma.webp);
+            background-position: center;
+            background-size: cover; 
+        }
+        #child3{
+            background-image: url(./ms-dhoni.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child4{
+            background-image: url(./kedar-jadhav.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child5{
+            background-image: url(./hardik-pandya.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child6{
+            background-image: url(./kuldeep-yadav.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child7{
+            background-image: url(./kl-rahul.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child8{
+            background-image: url(./dinesh-karthik.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child9{
+            background-image: url(./mohammed-shami.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child10{
+            background-image: url(./bumrah.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #child11{
+            background-image: url(./chahal.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+        #child12{
+            background-image: url(./bhuvneshwar-kumar.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child13{
+            background-image: url(./vijay-shankar.webp);
+            background-position: center;
+            background-size: cover;
+        }
+        #child14{
+            background-image: url(./ravindra-jadeja.webp);
+            background-position: center;
+            background-size: cover;
+        }
+       .parent{
+            height: 250px;
+            width: 150px;
+            /* border: 1px solid; */
+            justify-content: space-between;
+       }
+       .parent:hover{
+            background-color: #FFDEE9;
+            background-image: linear-gradient(0deg,#B5FFFC , #FFDEE9 100%);
+            border-radius: 10px;
+            box-shadow: 0px 2px 9px;
+       }
+       .dom{
+            margin: 0 auto;
+            margin-top: 2px;
+            text-align: center;
+            /* border: 1px solid; */
+            font-size: larger;
+            color: black;
+            font-weight: bolder;
+       }
+       .indom{
+            height: 20px;
+            width: 130px;
+            /* border: 1px solid; */
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            display: flex;
+       }
+       .indom1{
+            color: black;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            text-align: center;
+       }
+       #id1{
+        height: 38px;
+        width: 41px;
+        /* border: 1px solid; */
+        background-image: url(./batsman.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       #id2{
+            margin: 0 auto;
+            color: black;    
+       }
+       #idms{
+        height: 35px;
+        width: 35px;
+        /* border: 1px solid; */
+        background-image: url(./wicket-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       #idkj{
+        height: 35px;
+        width: 35px;
+        /* border: 1px solid; */
+        background-image: url(./allr-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       #idky{
+        height: 35px;
+        width: 35px;
+        /* border: 1px solid; */
+        background-image: url(./boll-removebg-preview.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+       }
+       
+    </style>
+</head>
+<body>
+    
+        <div id="nav">TEAM INDIA</div>
+        <div id="nav1">WORLD CUP 2019 SQUAD</div>
+        <div id="box">
+           <div  class="parent">
+               <div class="child" id="child1"></div>
+               <div class="dom" >Virat Kohli(C)</div>
+               <div  class="indom" >
+                 <div id="id1"></div>
+                 <div id="id2"></div>
+               </div>
+               <div  class="indom1" id="sd2">
+                <div>SR:-93.77</div>
+                <div>Runs:-12809</div>
+               </div>
+            </div>
+           <div class="parent">
+               <div class="child" id="child2"></div>
+               <div class="dom">Rohit Sharma</div>
+               <div  class="indom" >
+                <div id="id1"></div>
+                <div id="id2">Right Hand Batsman</div>
+               </div>
+               <div  class="indom1">
+                <div>SR:-89.89</div>
+                <div>Runs:-9782</div>
+               </div>
+           </div>
+           <div  class="parent">
+              <div class="child" id="child3"></div>
+              <div class="dom">MS Dhoni</div>
+              <div  class="indom">
+                <div id="idms"></div>
+                <div id="id2">Right Hand Batsman</div>
+              </div>
+               <div  class="indom1">
+                <div>SR:-87.56</div>
+                <div>Runs:-10773</div>
+               </div>
+           </div>
+            <div id="parent4" class="parent">
+                <div class="child" id="child4"></div>
+                <div class="dom">Kedar Jadhav</div>
+                <div  class="indom">
+                    <div id="idkj"></div>
+                    <div id="id2">AllRounder</div>
+                </div>
+               <div  class="indom1" >
+                <div>SR:-101.61, Wkts:-27</div>
+                <div>Runs:-1389, Econ:-5.1</div>
+               </div>
+            </div>
+            <div class="parent">
+                <div class="child" id="child5"></div>
+                <div class="dom">Hardik Pandya</div>
+                <div  class="indom">
+                    <div id="idkj"></div>
+                    <div id="id2">AllRounder</div>
+                </div>
+                <div  class="indom1">
+                    <div>SR:-113.28, Wkts:-68</div>
+                <div>Runs:-1518, Econ:-5.9</div>
+                </div>
+            </div>
+            <div class="parent">
+                <div class="child" id="child6"></div>
+                <div class="dom">Kuldeep Yadav</div>
+                <div  class="indom">
+                    <div id="idky"></div>
+                    <div id="id2">Left-arm chinaman</div>
+                </div>
+               <div  class="indom1">
+                <div>Wkts:-130</div>
+                <div>Econ:-519</div>
+               </div>
+            </div>
+            <div class="parent">
+                <div class="child" id="child7"></div>
+                <div class="dom">KL Rahul</div>
+                <div  class="indom">
+                    <div id="id1"></div>
+                    <div id="id2">Right Handed Bat</div>
+                </div>
+               <div  class="indom1">
+                <div>SR:-87.34</div>
+                <div>Runs:-1870</div>
+               </div>
+            </div>
+            <div class="parent">
+                <div class="child" id="child8"></div>
+                <div class="dom">Dinesh Karthik</div>
+                <div  class="indom">
+                    <div id="id1"></div>
+                    <div id="id2">Right Hand Batsman</div>
+                </div>
+               <div  class="indom1">
+                <div>SR:-73.24</div>
+                <div>Runs:-1752</div>
+               </div>
+            </div>
+            <div class="parent">
+                <div class="child" id="child9"></div>
+                <div class="dom">MD Shami</div>
+                <div  class="indom" id="sd1">
+                    <div id="idky"></div>
+                    <div id="id2">Right-arm fast</div>
+                </div>
+               <div  class="indom1">
+                    <div>Wkts:-159</div>
+                    <div>Econ:-5.61</div>
+               </div>
+            </div>
+           <div class="parent">
+            <div class="child" id="child10"></div>
+            <div class="dom">Jasprit Bumrah</div>
+            <div  class="indom">
+                <div id="idky"></div>
+                <div id="id2">Right-arm fast</div>
+            </div>
+               <div  class="indom1">
+                <div>Wkts:-121</div>
+                <div>Econ:-24.31</div>
+               </div>
+           </div>
+            <div class="parent">
+                <div class="child" id="child11"></div>
+                <div class="dom">Yuzi Chahal</div>
+                <div  class="indom">
+                    <div id="idky"></div>
+                    <div id="id2">Right-arm legbreak</div>
+                </div>
+               <div  class="indom1">
+                <div>Wkts:-121</div>
+                <div>Econ:-5.27</div>
+               </div>
+            </div>
+            <div class="parent">
+                <div class="child" id="child12"></div>
+                <div class="dom">Bhuvneswar K.</div>
+                <div  class="indom">
+                    <div id="idky"></div>
+                    <div id="id2">Right-arm fast</div>
+                </div>
+               <div  class="indom1">
+                <div>Wkts:-141</div>
+                <div>Econ:-5.08</div>
+               </div>
+            </div>
+           <div class="parent">
+            <div class="child" id="child13"></div>
+            <div class="dom">Vijay Shankar</div>
+            <div  class="indom">
+                <div id="id1"></div>
+                <div id="id2">Right Handed Bat</div>
+            </div>
+               <div  class="indom1">
+                <div>SR:-90.65</div>
+                <div>Runs:-223</div>
+               </div>      
+            </div>
+            <div class="parent">
+                <div class="child" id="child14"></div> 
+                <div class="dom">Ravindra Jadeja</div> 
+                <div  class="indom">
+                    <div id="idkj"></div>
+                    <div id="id2">AllRounder</div>
+                </div>
+               <div  class="indom1">
+                <div>SR:-86.53,Wkts:-189</div>
+                <div>Runs:-2447,Econ:-4.9</div>
+               </div>
+            </div>      
+        </div>
+    
+    
+</body>
+</html>

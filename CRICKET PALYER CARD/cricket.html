@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        main{
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            background-image: url(./indian-g4cdf934ed_640.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        #heading{
+            color: white;
+            justify-content: center;      
+            display: flex;
+            text-shadow: 1px 1px 10px red, 2px 2px rgb(77, 35, 185), 1px 1px 1px rgba(255, 255, 255, 0);
+         }
+         #heading :hover{
+            padding: 5px 5px;
+            background-color: cornflowerblue;
+            border-radius: 40px;
+         }
+         #players{
+            height: 600px;
+            width: 1200px;
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            border-radius: 40px;
+         }
+         #players:hover{
+            background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+            box-shadow: 8px 8px 1px orangered, red, blue, white;
+         }
+         .player{
+            height: 250px;
+            width: 180px;
+            display: wrap;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: space-around;
+            margin-top: 10px;
+         }
+         .player:hover{
+            background-color: aliceblue;
+            border-radius: 20px;
+            display: flex;
+            justify-content: space-around;
+            box-shadow: 2px 2px 2px black, 0px 2px rgb(120, 112, 112), 0px 2px rgb(240, 232, 232);
+         }
+         .details{
+            height: 120px;
+            width: 120px;
+            display: wrap;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+            margin: 0px auto;
+            margin-top: 5px;    
+         }
+         #details1:hover{
+            border-radius: 50%;
+            box-shadow: 2px 2px 2px red, 2px 2px 1px blue, 2px 2px 1px black, 2px 2px 2px 1px white;
+            
+         }
+         #name{
+            text-align: center;
+            color: red;
+            text-shadow: 1px 1px 1px black;
+         }
+         img{
+            height: 120px;
+            width: 120px;
+            box-shadow: 2px 2px 1px red, 2px 2px 1px black, 2px 2px 1px white;
+         }
+         img:hover{
+            border-radius: 50%;
+         }
+         div div h6{
+            text-align: center;
+         }
+         
+    </style>
+</head>
+<body>
+    <main>
+        <div id="parent">
+            <div id="heading">
+                <h3>INDIA's SQUAD FOR 2022 ICC WORLD CUP</h3>
+            </div>
+            <div id="players">
+                <div class="player" id="player1">
+                    
+                    <div class="details" id="details1">
+                        <img src="./rohit-sharma-angry-ap.jpg" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>ROHIT SHARMA</h6></div>
+                        <div>
+                            <h6>RIGHT <br> SR - 89.92  <br> RUN - 9782 <br></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player2">
+                    
+                    <div class="details" id="details1">
+                        <img src="./K.L._Rahul_(1).jpg" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>KL RAHUL</h6></div>
+                        <div>
+                            <h6>RIGHT <br> SR - 87.74  <br> RUN - 1870</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player3">
+                    
+                    <div class="details" id="details1">
+                        <img src="./kohli.jpg" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>VIRAT KOHLI</h6></div>
+                        <div>
+                            <h6>All Rounder <br> SR - 86.53 <br> WKTS - 189 <br> RUN - 2447</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player4">
+                    
+                    <div class="details" id="details1">
+                        <img src="./suryakumar-yadav-1.jpg" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>SURYAKUMAR YADAV</h6></div>
+                        <div>
+                            <h6>All Rounder <br> SR - 86.53 <br> WKTS - 189 <br> RUN - 2447</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player5">
+                    
+                    <div class="details" id="details1">
+                        <img src="./Rishabh-Pant2.webp" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>RISHABH PANT</h6></div>
+                        <div>
+                            <h6>All Rounder <br> SR - 86.53 <br> WKTS - 189 <br> RUN - 2447</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player6">
+                    
+                    <div class="details" id="details1">
+                        <img src="./pandya h.jpg" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>HARDIK PANDYA</h6></div>
+                        <div>
+                            <h6>All Rounder <br> SR - 113.28 <br> WKTS - 68 <br> RUN - 1518 <br> ECON - 5.9</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player7">
+                    
+                    <div class="details" id="details1">
+                        <img src="./rj.avif" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>RAVINDRA JADEJA</h6></div>
+
+                        <div>
+                            <h6>All Rounder <br> SR - 86.53 <br> WKTS - 189 <br> RUN - 2447</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player8">
+                    
+                    <div class="details" id="details1">
+                        <img src="./thakur.webp" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>SHARDUL THAKUR</h6></div>
+                        <div>
+                            <h6>All Rounder <br> SR - 86.53 <br> WKTS - 189 <br> RUN - 2447</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player9">
+                    
+                    <div class="details" id="details1">
+                        <img src="./bhumrah.webp" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>JASPREET BHUMRAH</h6></div>
+                        <div>
+                            <h6>All Rounder <br> SR - 86.53 <br> WKTS - 189 <br> RUN - 2447</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player10">
+                    
+                    <div class="details" id="details1">
+                        <img src="./Mohammed-Shami.jpg" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>MOHAMMAD SHAMI</h6></div>
+                        <div>
+                            <h6> RIGHT ARM <br> WKTS - 159 <br> ECON - 5.61</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player11">
+                    
+                    <div class="details" id="details1">
+                        <img src="./chahal.webp" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>YUZI CHAHAL</h6></div>
+                        <div>
+                            <h6>RIGHTT ARM <br>  WKTS - 181 <br> ECON - 527</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="player" id="player12">
+                    
+                    <div class="details" id="details1">
+                        <img src="./kuldeep-yadav-instagram-_625x300_09_June_22.webp" alt="">
+                    </div>
+                    <div class="details" id="details2">
+                        <div id="name"><h6>KULDEEP YADAV</h6></div>
+                        <div>
+                            <h6>LEFT ARM <br> WKTS - 130 <br> ECON - 519</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
